@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/firstreact/static/css/main.570843ec.chunk.css",
+    "main.js": "/firstreact/static/js/main.2e636682.chunk.js",
+    "main.js.map": "/firstreact/static/js/main.2e636682.chunk.js.map",
+    "runtime-main.js": "/firstreact/static/js/runtime-main.667419d7.js",
+    "runtime-main.js.map": "/firstreact/static/js/runtime-main.667419d7.js.map",
+    "static/js/2.869c4ddd.chunk.js": "/firstreact/static/js/2.869c4ddd.chunk.js",
+    "static/js/2.869c4ddd.chunk.js.map": "/firstreact/static/js/2.869c4ddd.chunk.js.map",
+    "index.html": "/firstreact/index.html",
+    "static/css/main.570843ec.chunk.css.map": "/firstreact/static/css/main.570843ec.chunk.css.map",
+    "static/js/2.869c4ddd.chunk.js.LICENSE.txt": "/firstreact/static/js/2.869c4ddd.chunk.js.LICENSE.txt",
+    "static/media/furkish.jpg": "/firstreact/static/media/furkish.8c1304e5.jpg",
+    "static/media/App.css": "/firstreact/static/media/img-8.fabdf94d.jpg",
+    "static/media/img-2.jpg": "/firstreact/static/media/img-2.bb238fc1.jpg",
+    "static/media/img-9.jpg": "/firstreact/static/media/img-9.f97f588f.jpg",
+    "static/media/selo.jpg": "/firstreact/static/media/selo.4c5cf2e0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.667419d7.js",
+    "static/js/2.869c4ddd.chunk.js",
+    "static/css/main.570843ec.chunk.css",
+    "static/js/main.2e636682.chunk.js"
+  ]
+}
