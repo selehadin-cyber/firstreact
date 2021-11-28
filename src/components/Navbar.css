@@ -9,6 +9,11 @@
     top: 0;
     z-index: 999;
   }
+  #Layer_1 {
+    fill: black;
+    width: 90px;
+    padding-top: 20px;
+  }
   
   .navbar-container {
     display: flex;

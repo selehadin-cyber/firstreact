@@ -44,7 +44,12 @@
     margin-bottom: 16px;
     border: 1px solid #fff;
   }
-  
+  #Layer_2 {
+    fill: rgb(28, 140, 112);
+    width: 110px;
+    padding-top: 20px;
+    
+}
   .footer-links {
     width: 100%;
     max-width: 1000px;
