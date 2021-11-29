@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path='/firstreact/' exact element={<Home />} />
           <Route path='/firstreact/services' element={<Services />} />
-          <Route path='/firstreact/takim' component={<Takim />} />
+          <Route path='/firstreact/takim' element={<Takim />} />
           <Route path='/firstreact/sign-up' component={<SignUp />} />
         </Routes>
         <Footer />
