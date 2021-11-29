@@ -7,6 +7,9 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import SignUp from './pages/SignUp';
 import Footer from './components/Footer';
+import Cards from './components/Cards';
+import Takim from './pages/Takim';
+
 
 function App() {
   return (
@@ -16,7 +19,7 @@ function App() {
         <Routes>
           <Route path='/firstreact/' exact element={<Home />} />
           <Route path='/firstreact/services' element={<Services />} />
-          <Route path='/firstreact/products' component={<Products />} />
+          <Route path='/firstreact/takim' component={<Takim />} />
           <Route path='/firstreact/sign-up' component={<SignUp />} />
         </Routes>
         <Footer />

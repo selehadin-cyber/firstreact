@@ -114,7 +114,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/firstreact" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/firstreact/takim" className="nav-links" onClick={closeMobileMenu}>
                             Takım
                         </Link>
                     </li>
