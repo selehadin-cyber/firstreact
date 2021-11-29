@@ -5,39 +5,45 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Takım üyeler</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              src='images/emre.jpeg'
+              text='Emre verim'
               label='Adventure'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              src='images/furkish.jpg'
+              text='Furkan Aycan'
+              label='Luxury'
+              path='/services'
+            />
+            <CardItem
+              src='images/merwan.jpeg'
+              text='Marwan Saad'
               label='Luxury'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              src='images/adem.jpeg'
+              text='Adem Dinçer'
               label='Mystery'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              src='images/selo.jpg'
+              text='Selehadin Abdurahman'
               label='Adventure'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              src='images/ben.jpeg'
+              text='Ben Ayed'
               label='Adrenaline'
               path='/sign-up'
             />

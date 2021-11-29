@@ -124,9 +124,11 @@ function Footer() {
             >
               <i class='fab fa-linkedin' />
             </Link>
+            {/*<Link to="https://www.vecteezy.com/free-vector/green-background">Green Background Vectors by Vecteezy</Link>*/}
           </div>
         </div>
       </section>
+      <Link to="https://www.vecteezy.com/free-vector/green-background">Green Background Vectors by Vecteezy</Link>
     </div>
     )
 }
