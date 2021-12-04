@@ -119,12 +119,13 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/firstreact/kaydol" className="nav-links-mobile" onClick={closeMobileMenu}>
-                            Kaydol
+                        <Link to="/firstreact/galeri" className="nav-links" onClick={closeMobileMenu}>
+                            Galeri
                         </Link>
                     </li>
+                    
                 </ul>
-                {button && <Button buttonStyle="btn--outline">KAYDOL</Button>}
+                
             </div>
         </nav>
         </>
