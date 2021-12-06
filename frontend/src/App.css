@@ -58,6 +58,7 @@
   margin: 0 auto;
   margin-bottom: 6rem;
   margin-top: 40px;
+  justify-content: center;
   }
   .project {
     background: grey;
