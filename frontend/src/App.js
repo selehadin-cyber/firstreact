@@ -18,11 +18,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/firstreact/' exact element={<Home />} />
-          <Route path='/firstreact/services' element={<Services />} />
-          <Route path='/firstreact/takim' element={<Takim />} />
-          <Route path='/firstreact/galeri' element={<Galeri />} />
-          <Route path='/firstreact/duyuru' element={<Duyuru />} />
+          <Route path='/' exact element={<Home />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/takim' element={<Takim />} />
+          <Route path='/galeri' element={<Galeri />} />
+          <Route path='/duyuru' element={<Duyuru />} />
         </Routes>
         <Footer />
       </Router>

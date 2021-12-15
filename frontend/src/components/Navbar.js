@@ -104,7 +104,7 @@ function Navbar() {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <Link to="/firstreact" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                             Anasayfa
                         </Link>
                     </li>
@@ -119,12 +119,12 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/firstreact/galeri" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/galeri" className="nav-links" onClick={closeMobileMenu}>
                             Galeri
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/firstreact/duyuru" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/duyuru" className="nav-links" onClick={closeMobileMenu}>
                             Duyuru
                         </Link>
                     </li>
