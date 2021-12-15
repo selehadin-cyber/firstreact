@@ -130,6 +130,7 @@
 .img img{
   height: 100%;
   width: 100%;
+  margin-top: 50px;
   object-fit: cover;
   cursor: pointer;
   opacity: 0;
@@ -145,6 +146,7 @@
   padding: 0 20px 0 35px;
   width: 530px;
   margin-left: 50px;
+  margin-top: 80px;
   opacity: 0;
   transition: .6s;
 }

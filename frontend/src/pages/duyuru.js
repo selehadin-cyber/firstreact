@@ -18,9 +18,20 @@ export default function Duyuru() {
         </div>
         <div class="inner-part">
             <label for="imgTap" class="img">
-            <img class="img-1" src="profile-1.png"></img>
+            <img class="img-1" src="images/gp2.jpg"></img>
             </label>
             <div class="content content-1">
+            <span> Eylül 2020</span>
+            <div class="title">Uçağımızı uçurduk</div>
+            <div class="text">Bursanın Yunuseli havalimanında uçağımızı uçurduk.</div>
+            
+            </div>
+        </div>
+        <div class="inner-part">
+            <label for="imgTap" class="img">
+            <img class="img-2" src="images/gp1.jpg"></img>
+            </label>
+            <div class="content content-2">
             <span>21 auğustos 2021</span>
             <div class="title">Finale kalmaya hak kazandık</div>
             <div class="text">Gökpusu Takımı olarak Uluslararası Serbest Görev İHA kategorisinde finale kalmaya hak kazanmıştır. Bize inanan, destek veren herkese teşekkür ederiz.</div>
@@ -29,23 +40,12 @@ export default function Duyuru() {
         </div>
         <div class="inner-part">
             <label for="imgTap" class="img">
-            <img class="img-2" src="profile-1.png"></img>
-            </label>
-            <div class="content content-2">
-            <span>26 December 2018</span>
-            <div class="title">Lorem Ipsum Dolor</div>
-            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum eos ut consectetur numquam ullam fuga animi laudantium nobis rem molestias.</div>
-            
-            </div>
-        </div>
-        <div class="inner-part">
-            <label for="imgTap" class="img">
-            <img class="img-3" src="https://png.pngtree.com/png-vector/20200922/ourlarge/pngtree-islamic-calligraphy-allahu-akbar-with-tight-line-art-png-image_2349509.jpg"></img>
+            <img class="img-3" src="images/gp3.jpg"></img>
             </label>
             <div class="content content-3">
-            <span>26 December 2019</span>
-            <div class="title">Lorem Ipsum Dolor</div>
-            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod excepturi nemo commodi sint eum ipsam odit atque aliquam officia impedit.</div>
+            <span>2 Aralık 2020</span>
+            <div class="title">Gökpusu kuruldu</div>
+            <div class="text">12 Aralık günü gökpusu kuruldu böylelikle uzun bir hikayeninin başlangıcına ılk adım atıldı</div>
             
             </div>
         </div>
