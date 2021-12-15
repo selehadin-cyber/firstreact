@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Cards from './components/Cards';
 import Takim from './pages/Takim';
 import Galeri from './pages/Galeri';
+import Duyuru from './pages/duyuru';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path='/firstreact/services' element={<Services />} />
           <Route path='/firstreact/takim' element={<Takim />} />
           <Route path='/firstreact/galeri' element={<Galeri />} />
+          <Route path='/firstreact/duyuru' element={<Duyuru />} />
         </Routes>
         <Footer />
       </Router>

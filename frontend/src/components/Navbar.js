@@ -123,6 +123,11 @@ function Navbar() {
                             Galeri
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to="/firstreact/duyuru" className="nav-links" onClick={closeMobileMenu}>
+                            Duyuru
+                        </Link>
+                    </li>
                     
                 </ul>
                 
