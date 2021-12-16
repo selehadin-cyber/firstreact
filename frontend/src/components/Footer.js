@@ -84,46 +84,46 @@ function Footer() {
           </div>
           <small class='website-rights'>Gökpusu © 2021</small>
           <div class='social-icons'>
-            <Link
+            <a
               class='social-icon-link facebook'
-              to='/'
+              href='/'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link instagram'
-              to='/https://instagram.com/gokpusutakimi?utm_medium=copy_link'
+              href='https://instagram.com/gokpusutakimi?utm_medium=copy_link'
               target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link youtube'
-              to='/https://www.youtube.com/channel/UCX-49bmcc_xlh9TGjuz1neg'
+              href='https://www.youtube.com/channel/UCX-49bmcc_xlh9TGjuz1neg'
               target='_blank'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link twitter'
-              to='/https://twitter.com/gokpusu?s=08'
+              href='https://twitter.com/gokpusu?s=08'
               target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link twitter'
-              to='/https://www.linkedin.com/company/gokpusu-takimi'
+              href='https://www.linkedin.com/company/gokpusu-takimi'
               target='_blank'
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </a>
             {/*<Link to="https://www.vecteezy.com/free-vector/green-background">Green Background Vectors by Vecteezy</Link>*/}
           </div>
         </div>
