@@ -94,7 +94,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='/https://instagram.com/gokpusutakimi?utm_medium=copy_link'
               target='_blank'
               aria-label='Instagram'
             >
@@ -102,7 +102,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to='/https://www.youtube.com/channel/UCX-49bmcc_xlh9TGjuz1neg'
               target='_blank'
               aria-label='Youtube'
             >
@@ -110,7 +110,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='/https://twitter.com/gokpusu?s=08'
               target='_blank'
               aria-label='Twitter'
             >
@@ -118,7 +118,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='/https://www.linkedin.com/company/gokpusu-takimi'
               target='_blank'
               aria-label='LinkedIn'
             >
