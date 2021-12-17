@@ -70,7 +70,7 @@
     transition: all 0.2s ease-out;
   }
   nav {
-    background: pink;
+    background: #00f3ff;
     position: fixed;
     width: 100%;
     z-index: 999;
