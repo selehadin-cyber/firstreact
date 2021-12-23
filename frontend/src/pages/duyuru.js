@@ -32,7 +32,7 @@ export default function Duyuru() {
             <img class="img-2" src="images/gp1.jpg"></img>
             </label>
             <div class="content content-2">
-            <span>21 auğustos 2021</span>
+            <span>Ağustos 2021</span>
             <div class="title">Finale kalmaya hak kazandık</div>
             <div class="text">Gökpusu Takımı olarak Uluslararası Serbest Görev İHA kategorisinde finale kalmaya hak kazanmıştır. Bize inanan, destek veren herkese teşekkür ederiz.</div>
             
@@ -43,7 +43,7 @@ export default function Duyuru() {
             <img class="img-3" src="images/gp3.jpg"></img>
             </label>
             <div class="content content-3">
-            <span>2 Aralık 2020</span>
+            <span>Aralık 2020</span>
             <div class="title">Gökpusu kuruldu</div>
             <div class="text">12 Aralık günü gökpusu kuruldu böylelikle uzun bir hikayeninin başlangıcına ılk adım atıldı</div>
             

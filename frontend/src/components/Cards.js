@@ -11,7 +11,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/emre.jpeg'
-              text='Emre verim'
+              text='Emre Verim'
               label='Adventure'
               path='/services'
             />
@@ -23,7 +23,7 @@ function Cards() {
             />
             <CardItem
               src='images/merwan.jpeg'
-              text='Marwan Saad'
+              text='Marwan Abdurahman Saad'
               label='Luxury'
               path='/services'
             />
@@ -43,7 +43,7 @@ function Cards() {
             />
             <CardItem
               src='images/ben.jpeg'
-              text='Ben Ayed'
+              text='Ben Ayed Toulaibi'
               label='Adrenaline'
               path='/sign-up'
             />
