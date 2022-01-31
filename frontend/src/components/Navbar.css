@@ -113,6 +113,9 @@
     display: block;
     text-decoration: none;
     padding-bottom: 30px;
+    width: 120px;
+    color: black;
+    border-radius: 3px;
   }
   .sublink:hover {
     background: green;
@@ -130,11 +133,16 @@
     .NavbarItems {
       position: relative;
     }
+    .submenu {
+      visibility: hidden;
+    }
     label {
       display: block;
     }
     #toggle:checked ~ ul {
       display: block;
+      visibility: visible;
+      z-index: 999;
     }
     .activates:hover .submenu {
       display: unset;

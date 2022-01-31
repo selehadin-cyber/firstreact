@@ -16,7 +16,7 @@ function Navbar() {
         
         <nav className="Navbar">
             <div className="navbar-container">
-                <Link to="/firstreact" className="navbar-logo" onClick={closeMobileMenu}>
+                <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                     Gökpusu <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
            viewBox="0 0 651 323" enable-background="new 0 0 651 323" xmlSpace="preserve">
         <path d="M384.6,147.8c-0.2-7.6-0.6-15.2-0.7-22.8c-0.2-12.2,0.8-10.2-10-10.2c-32.7-0.1-65.3-0.1-98-0.1c-1.8,0-3.6,0.2-5.9,0.3
@@ -109,14 +109,14 @@ function Navbar() {
                     </li>
                     <li className="nav-item activates">
                         <Link to="/galeri" className="nav-links nada" onClick={closeMobileMenu}>
-                            Galeri
+                            Galeri  <i class='fa fa-angle-double-down' />
                         </Link>
                         <input type="checkbox" id="toggle"/>
-                        <label for="toggle">galeri mobil</label>
+                        <label for="toggle">Galeri <i class='fa fa-angle-double-down' /></label>
                         <ul className="submenu">
                             <li><Link to="/galeri" className="sublink" onClick={closeMobileMenu}>video</Link></li>
-                            <li><Link to="/galeri" className="sublink" onClick={closeMobileMenu}>Teknofest</Link></li>
-                            <li><Link to="/galeri" className="sublink" onClick={closeMobileMenu}>uçuş</Link></li>
+                            <li><Link to="/galeri#teknofest" className="sublink" onClick={closeMobileMenu}>Teknofest</Link></li>
+                            <li><Link to="/galeri#fly" className="sublink" onClick={closeMobileMenu}>uçuş</Link></li>
                             <li><Link to="/galeri#konus" className="sublink" onClick={closeMobileMenu}>konuşmalarımız</Link></li>
                         </ul>
                     </li>
