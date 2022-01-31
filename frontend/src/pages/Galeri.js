@@ -15,13 +15,29 @@ export default function Galeri() {
         <iframe width="420" height="315"
           src="https://www.youtube.com/embed/ai6zLXuzvI8">
         </iframe> 
+        <h1>teknofest</h1>
         <div className="container">
-          <div className="project"><img src="images/gp1.jpg" className="project-image" alt="" /></div>
-          <div className="project"><img src="images/gp2.jpg" className="project-image" alt="" /></div>
-          <div className="project"><img src="images/gp3.jpg" className="project-image" alt="" /></div>
-          <div className="project"><img src="images/gp4.jpg" className="project-image" alt="" /></div>
-          <div className="project"><img src="images/gp5.jpg" className="project-image" alt="" /></div>
-          <div className="project"><img src="images/gp6.jpg" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-t1.jpg" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-t2.jpg" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-t3.jpg" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-t4.jpg" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-t5.jpg" className="project-image" alt="" /></div>
+        </div>
+        <h1>uçuş</h1>
+        <div className="container">
+          <div className="project"><img src="images/img-u1.jpg" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-u2.jpg" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-u3.jpg" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-u4.jpg" className="project-image" alt="" /></div>
+        </div> 
+        <div id="konus">
+          <h1>konuşmalarımız</h1>
+          <div className="container">
+            <div className="project"><img src="images/img-k1.jpg" className="project-image" alt="" /></div>
+            <div className="project"><img src="images/img-k2.jpg" className="project-image" alt="" /></div>
+            <div className="project"><img src="images/img-k3.jpg" className="project-image" alt="" /></div>
+            <div className="project"><img src="images/img-k4.jpg" className="project-image" alt="" /></div>
+          </div>
         </div>
       </div>
     );

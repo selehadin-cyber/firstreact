@@ -5,23 +5,12 @@ import { Button } from './Button';
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-    const showButton = () => {
-        if(window.innerWidth <= 960) {
-            setButton(false);
-        } else {
-            setButton(true);
-        }
-    };
+    
 
-    useEffect(() => {
-        showButton();
-    }, []);
-
-    window.addEventListener("resize", showButton)
+  
     return (
         <>
         
@@ -118,10 +107,18 @@ function Navbar() {
                             Takım
                         </Link>
                     </li>
-                    <li className="nav-item">
-                        <Link to="/galeri" className="nav-links" onClick={closeMobileMenu}>
+                    <li className="nav-item activates">
+                        <Link to="/galeri" className="nav-links nada" onClick={closeMobileMenu}>
                             Galeri
                         </Link>
+                        <input type="checkbox" id="toggle"/>
+                        <label for="toggle">galeri mobil</label>
+                        <ul className="submenu">
+                            <li><Link to="/galeri" className="sublink" onClick={closeMobileMenu}>video</Link></li>
+                            <li><Link to="/galeri" className="sublink" onClick={closeMobileMenu}>Teknofest</Link></li>
+                            <li><Link to="/galeri" className="sublink" onClick={closeMobileMenu}>uçuş</Link></li>
+                            <li><Link to="/galeri#konus" className="sublink" onClick={closeMobileMenu}>konuşmalarımız</Link></li>
+                        </ul>
                     </li>
                     <li className="nav-item">
                         <Link to="/duyuru" className="nav-links" onClick={closeMobileMenu}>

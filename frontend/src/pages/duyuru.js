@@ -1,6 +1,5 @@
 import "../App.css"
-import CardItem from "../components/CardItem";
-import Cards from "../components/Cards";
+
 import "../components/Cards.css"
 
 export default function Duyuru() {
