@@ -17,11 +17,11 @@ export default function Galeri() {
         </iframe> 
         <h1>teknofest</h1>
         <div className="container">
-          <div className="project"><img src="images/img-t1.jpg" className="project-image" alt="" /></div>
-          <div className="project"><img src="images/img-t2.jpg" className="project-image" alt="" /></div>
-          <div className="project"><img src="images/img-t3.jpg" className="project-image" alt="" /></div>
-          <div className="project"><img src="images/img-t4.jpg" className="project-image" alt="" /></div>
-          <div className="project"><img src="images/img-t5.jpg" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-t1.JPG" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-t2.JPG" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-t3.JPG" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-t4.JPG" className="project-image" alt="" /></div>
+          <div className="project"><img src="images/img-t5.JPG" className="project-image" alt="" /></div>
         </div>
         <h1>uçuş</h1>
         <div className="container">
