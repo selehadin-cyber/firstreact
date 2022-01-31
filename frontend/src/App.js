@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import "./components/slider.css"
 import Navbar from './components/Navbar';
 import Services from './pages/Services';
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
@@ -10,6 +11,8 @@ import Cards from './components/Cards';
 import Takim from './pages/Takim';
 import Galeri from './pages/Galeri';
 import Duyuru from './pages/duyuru';
+import { ImageSlider } from './components/ImageSlider';
+import { SliderData } from './components/ImageData';
 
 
 function App() {
@@ -18,7 +21,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact element={<Home />} />
+          <Route path='/' exact element={<ImageSlider slides={SliderData}/>} />
           <Route path='/services' element={<Services />} />
           <Route path='/takim' element={<Takim />} />
           <Route path='/galeri' element={<Galeri />} />
