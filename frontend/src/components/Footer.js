@@ -81,7 +81,7 @@ function Footer() {
         </svg>
             </Link>
           </div>
-          <small class='website-rights'>Gökpusu © 2021</small>
+          <small class='website-rights'>Gökpusu © 2022</small>
           <div class='social-icons'>
             <a
               class='social-icon-link facebook'
