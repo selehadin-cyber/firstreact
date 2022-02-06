@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { Link } from "react-router-dom"
 import './Navbar.css';
 import { Button } from './Button';
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -114,10 +115,10 @@ function Navbar() {
                         <input type="checkbox" id="toggle"/>
                         <label for="toggle">Galeri <i class='fa fa-angle-double-down' /></label>
                         <ul className="submenu">
-                            <li><Link to="/galeri" className="sublink" onClick={closeMobileMenu}>video</Link></li>
-                            <li><Link to="/galeri#teknofest" className="sublink" onClick={closeMobileMenu}>Teknofest</Link></li>
-                            <li><Link to="/galeri#fly" className="sublink" onClick={closeMobileMenu}>uçuş</Link></li>
-                            <li><Link to="/galeri#konus" className="sublink" onClick={closeMobileMenu}>konuşmalarımız</Link></li>
+                            <li><HashLink to="/galeri" className="sublink" onClick={closeMobileMenu}>video</HashLink></li>
+                            <li><HashLink to="/galeri#teknofest" className="sublink" onClick={closeMobileMenu}>Teknofest</HashLink></li>
+                            <li><HashLink to="/galeri#fly" className="sublink" onClick={closeMobileMenu}>uçuş</HashLink></li>
+                            <li><HashLink to="/galeri#konus" className="sublink" onClick={closeMobileMenu}>konuşmalarımız</HashLink></li>
                         </ul>
                     </li>
                     <li className="nav-item">
