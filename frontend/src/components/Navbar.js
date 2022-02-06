@@ -109,7 +109,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item activates">
-                        <Link to="/galeri" className="nav-links nada" onClick={closeMobileMenu}>
+                        <Link to="#/galeri" className="nav-links nada" onClick={closeMobileMenu}>
                             Galeri  <i class='fa fa-angle-double-down' />
                         </Link>
                         <input type="checkbox" id="toggle"/>
