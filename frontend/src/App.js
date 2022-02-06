@@ -3,7 +3,7 @@ import './App.css';
 import "./components/slider.css"
 import Navbar from './components/Navbar';
 import Services from './pages/Services';
-import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import { BrowserRouter as HashRouter, Route, Routes} from "react-router-dom"
 import Home from './pages/Home';
 import Products from './pages/Products';
 import Footer from './components/Footer';
@@ -18,7 +18,7 @@ import { SliderData } from './components/ImageData';
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path='/' exact element={<ImageSlider slides={SliderData}/>} />
@@ -28,7 +28,7 @@ function App() {
           <Route path='/duyuru' element={<Duyuru />} />
         </Routes>
         <Footer />
-      </Router>
+      </HashRouter>
     </>
   );
 }
